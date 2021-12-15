@@ -1,0 +1,17 @@
+Plot_ID,Winter_Cover,Tillage_Type,Replicate
+5,NO,CT,2
+6,NO,ST,2
+7,CC,ST,2
+8,CC,CT,2
+13,CC,ST,4
+14,NO,ST,4
+15,CC,CT,4
+16,NO,CT,4
+21,CC,ST,6
+22,NO,ST,6
+23,NO,CT,6
+24,CC,CT,6
+29,NO,CT,8
+30,CC,CT,8
+31,NO,ST,8
+32,CC,ST,8

@@ -1,0 +1,6 @@
+﻿Layer_Name,Layer_Name_Text,Depth_Top,Depth_Bottom,Depth_Range
+Entire,Entire (0-100 cm),0,100,0 - 100 cm
+Top,Top (0-20 cm),0,20,0 - 20 cm
+Subsurface,Subsurface (20-40 cm),20,40,20 - 40 cm
+Bottom1,Bottom (40-60 cm),40,60,40 - 60 cm
+Bottom2,Bottom (60-100 cm),60,100,60 - 100 cm

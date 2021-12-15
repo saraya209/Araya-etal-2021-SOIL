@@ -1,0 +1,97 @@
+KSAT
+CulturInfo	en-US
+Software Version	1.4.2
+Firmware Version	1.4
+Last setting of the zero point	5/21/2018
+Serial Number	0179
+
+File name	KSAT_measurement_21T_000_refit
+
+MEASUREMENT
+Mode	FallingHead
+Sample rate [s]	Auto
+Crown type	FilterPlateCrown
+Use Synthetic Data	False
+
+PARAMETERS
+OPERATION PARAMETERS
+H_end_abs [cm]	0.5	Hydraulic head difference at stop of measurement
+H_end_rel [-]	0.25	Relative hydraulic head (with respect to initial pressure head) to stop measurement	
+dH_min [cm]	0.1	Minimum hydraulic head difference for two successive readings	
+dH_ini [cm]	1	Required hydraulic head increase between two readings to trigger automatic start of measurement campaign	
+GEOMETRY PARAMETERS
+A_bur [cm²]	4.524	Standard burette cross-sectional area
+A_cap_in [cm²]	0.075	Burette extension internal cross-sectional area
+A_sample  [cm²]	50	Sample cross-sectional area	
+L_bur [cm]	22.5	Standard burette length	
+L_sample [cm]	5	Height of soil sample	
+L_plate_Bottom [cm]	0.8	Bottom porous plate height	
+L_plate_Top [cm]	0.3	Upper porous plate height	
+EVALUATION PARAMETERS
+T_ref [°C]	10	Reference temperature for K calculations
+K_plate [cm/d]	14000	Porous plate conductivity	
+Use Auto-Offset	True	Use auto offset correction for measured hydraulic head
+Max Auto-Offset [cm]	1	Max. value for auto offset correction
+Trigger Auto-Offset [cm]	1	Hydraulic head change after auto offset correction becomes active
+Start of measurement	5/21/2018 5:59:31 PM
+Test duration	00:04:32
+
+RESULT
+Use auto offset adjustment	True
+Max offset adjustment [cm]	1
+Fitting Parameter a [cm]	4.99	coefficient a of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s
+Fitting Parameter b [s-1]	-5.73E-03	coefficient b of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s
+Fitting Parameter c [cm]	-.1	coefficient c of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s
+Fitting Parameter r2 [-]	0.9999	coefficient of determination of the exponential pressure head decrease function that is fitted to the observed data
+Ks Total [cm/d]	273	Saturated hydraulic conductivity [cm/d] of the entire system
+Ks Total [m/s]	3.18E-05	Saturated hydraulic conductivity [m/s] of the entire system
+Ks Soil [cm/d]	225	Saturated hydraulic conductivity [cm/d] of the soil sample itself
+Ks Soil [m/s]	2.61E-05	Saturated hydraulic conductivity [m/s] of the soil sample itself
+Ks Soil normalized at 10.0 °C [cm/d]	160	Saturated hydraulic conductivity [cm/d] of the soil sample  normalized to 10 °C mean field temperature
+Ks Soil normalized at 10.0 °C [m/s]	1.86E-05	Saturated hydraulic conductivity [m/s] of the soil sample  normalized to 10 °C mean field temperature
+
+DATA
+Date/Time		Runtime [s]	Pressure Head [cm]	Fitting [cm]	Temperature [°C]
+5/21/2018 5:59:31 PM	839	-7.00	-0.288	-99999.000	22.960
+5/21/2018 5:59:33 PM	336	-5.50	-0.288	-99999.000	22.960
+5/21/2018 5:59:34 PM	249	-4.59	-0.289	-99999.000	22.960
+5/21/2018 5:59:35 PM	173	-3.67	-0.231	-99999.000	22.960
+5/21/2018 5:59:36 PM	168	-2.67	5.204	-99999.000	22.960
+5/21/2018 5:59:38 PM	839	0.00	5.092	5.092	22.960
+5/21/2018 5:59:41 PM	638	2.80	4.989	5.013	22.960
+5/21/2018 5:59:46 PM	128	7.29	4.882	4.888	22.960
+5/21/2018 5:59:49 PM	868	11.03	4.774	4.786	22.960
+5/21/2018 5:59:54 PM	375	15.54	4.659	4.667	22.970
+5/21/2018 5:59:58 PM	68	19.23	4.553	4.571	22.970
+5/21/2018 6:00:02 PM	649	23.81	4.446	4.455	22.960
+5/21/2018 6:00:07 PM	146	28.31	4.338	4.345	22.960
+5/21/2018 6:00:11 PM	727	32.89	4.225	4.235	22.960
+5/21/2018 6:00:16 PM	217	37.38	4.124	4.130	22.960
+5/21/2018 6:00:20 PM	837	42.00	4.016	4.024	22.960
+5/21/2018 6:00:26 PM	181	47.34	3.902	3.906	22.960
+5/21/2018 6:00:31 PM	601	52.76	3.793	3.790	22.960
+5/21/2018 6:00:36 PM	125	57.29	3.686	3.695	22.960
+5/21/2018 6:00:41 PM	560	62.72	3.583	3.585	22.970
+5/21/2018 6:00:46 PM	924	68.09	3.478	3.479	22.970
+5/21/2018 6:00:52 PM	276	73.44	3.373	3.377	22.960
+5/21/2018 6:00:58 PM	532	79.69	3.258	3.262	22.960
+5/21/2018 6:01:05 PM	576	86.74	3.141	3.137	22.960
+5/21/2018 6:01:11 PM	753	92.91	3.033	3.031	22.960
+5/21/2018 6:01:18 PM	822	99.98	2.916	2.915	22.960
+5/21/2018 6:01:25 PM	849	107.01	2.813	2.804	22.960
+5/21/2018 6:01:32 PM	894	114.06	2.707	2.697	22.960
+5/21/2018 6:01:40 PM	777	121.94	2.593	2.582	22.970
+5/21/2018 6:01:48 PM	675	129.84	2.490	2.472	22.970
+5/21/2018 6:01:56 PM	574	137.74	2.378	2.367	22.970
+5/21/2018 6:02:05 PM	324	146.49	2.274	2.256	22.970
+5/21/2018 6:02:14 PM	120	155.28	2.166	2.150	22.970
+5/21/2018 6:02:25 PM	374	166.54	2.051	2.022	22.970
+5/21/2018 6:02:34 PM	135	175.30	1.950	1.928	22.970
+5/21/2018 6:02:44 PM	525	185.69	1.847	1.823	22.970
+5/21/2018 6:02:55 PM	832	196.99	1.741	1.715	22.970
+5/21/2018 6:03:07 PM	942	209.10	1.635	1.606	22.970
+5/21/2018 6:03:20 PM	75	221.24	1.533	1.505	22.970
+5/21/2018 6:03:33 PM	864	235.03	1.432	1.398	22.970
+5/21/2018 6:03:43 PM	451	244.61	1.329	1.329	22.970
+5/21/2018 6:04:04 PM	19	265.18	1.224	-99999.000	22.970
+

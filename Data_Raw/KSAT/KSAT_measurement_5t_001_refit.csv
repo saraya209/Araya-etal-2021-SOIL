@@ -1,0 +1,75 @@
+KSAT
+CulturInfo	en-US
+Software Version	1.4.2
+Firmware Version	
+Last setting of the zero point	4/6/2018
+Serial Number	0000
+
+File name	KSAT_measurement_5t_001_refit
+
+MEASUREMENT
+Mode	FallingHead
+Sample rate [s]	Auto
+Crown type	FilterPlateCrown
+Use Synthetic Data	False
+
+PARAMETERS
+OPERATION PARAMETERS
+H_end_abs [cm]	0.5	Hydraulic head difference at stop of measurement
+H_end_rel [-]	0.25	Relative hydraulic head (with respect to initial pressure head) to stop measurement	
+dH_min [cm]	0.1	Minimum hydraulic head difference for two successive readings	
+dH_ini [cm]	1	Required hydraulic head increase between two readings to trigger automatic start of measurement campaign	
+GEOMETRY PARAMETERS
+A_bur [cm²]	4.524	Standard burette cross-sectional area
+A_cap_in [cm²]	0.075	Burette extension internal cross-sectional area
+A_sample  [cm²]	50	Sample cross-sectional area	
+L_bur [cm]	22.5	Standard burette length	
+L_sample [cm]	5	Height of soil sample	
+L_plate_Bottom [cm]	0.8	Bottom porous plate height	
+L_plate_Top [cm]	0.3	Upper porous plate height	
+EVALUATION PARAMETERS
+T_ref [°C]	10	Reference temperature for K calculations
+K_plate [cm/d]	14000	Porous plate conductivity	
+Use Auto-Offset	True	Use auto offset correction for measured hydraulic head
+Max Auto-Offset [cm]	1	Max. value for auto offset correction
+Trigger Auto-Offset [cm]	1	Hydraulic head change after auto offset correction becomes active
+Start of measurement	4/6/2018 5:08:27 PM
+Test duration	00:00:19
+
+RESULT
+Use auto offset adjustment	True
+Max offset adjustment [cm]	1
+Fitting Parameter a [cm]	6.08	coefficient a of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s
+Fitting Parameter b [s-1]	-7.38E-02	coefficient b of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s
+Fitting Parameter c [cm]	1	coefficient c of the fitted exponential pressure head decrease function y = a * exp(-b*t)+c, where y is the pressure head in cm and t is time in s
+Fitting Parameter r2 [-]	0.9982	coefficient of determination of the exponential pressure head decrease function that is fitted to the observed data
+Ks Total [cm/d]	3520	Saturated hydraulic conductivity [cm/d] of the entire system
+Ks Total [m/s]	4.09E-04	Saturated hydraulic conductivity [m/s] of the entire system
+Ks Soil [cm/d]	3020	Saturated hydraulic conductivity [cm/d] of the soil sample itself
+Ks Soil [m/s]	3.51E-04	Saturated hydraulic conductivity [m/s] of the soil sample itself
+Ks Soil normalized at 10.0 °C [cm/d]	2230	Saturated hydraulic conductivity [cm/d] of the soil sample  normalized to 10 °C mean field temperature
+Ks Soil normalized at 10.0 °C [m/s]	2.59E-04	Saturated hydraulic conductivity [m/s] of the soil sample  normalized to 10 °C mean field temperature
+
+DATA
+Date/Time		Runtime [s]	Pressure Head [cm]	Fitting [cm]	Temperature [°C]
+4/6/2018 5:08:27 PM	563	-6.36	-6.158	-99999.000	21.380
+4/6/2018 5:08:29 PM	407	-4.52	-6.154	-99999.000	21.380
+4/6/2018 5:08:30 PM	298	-3.62	-6.154	-99999.000	21.380
+4/6/2018 5:08:31 PM	188	-2.73	-6.154	-99999.000	21.370
+4/6/2018 5:08:32 PM	110	-1.81	-6.119	-99999.000	21.370
+4/6/2018 5:08:33 PM	1	-0.92	-2.052	-99999.000	21.370
+4/6/2018 5:08:33 PM	923	0.00	5.083	5.083	21.370
+4/6/2018 5:08:35 PM	595	1.67	4.477	4.377	21.370
+4/6/2018 5:08:36 PM	673	2.75	4.053	3.966	21.370
+4/6/2018 5:08:37 PM	689	3.77	3.778	3.607	21.370
+4/6/2018 5:08:38 PM	674	4.75	3.365	3.284	21.370
+4/6/2018 5:08:39 PM	658	5.74	3.148	2.984	21.370
+4/6/2018 5:08:40 PM	643	6.72	2.782	2.705	21.370
+4/6/2018 5:08:41 PM	627	7.70	2.475	2.445	21.470
+4/6/2018 5:08:42 PM	611	8.69	2.266	2.204	21.470
+4/6/2018 5:08:43 PM	596	9.67	2.076	1.980	21.470
+4/6/2018 5:08:44 PM	581	10.66	1.809	1.771	21.470
+4/6/2018 5:08:45 PM	565	11.64	1.651	1.577	21.470
+4/6/2018 5:08:46 PM	550	12.63	1.396	1.396	21.470
+4/6/2018 5:08:47 PM	534	13.61	1.154	-99999.000	21.470
+
