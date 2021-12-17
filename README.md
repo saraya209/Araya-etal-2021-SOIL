@@ -1,14 +1,15 @@
 <div>
+   <p align="center">
+   Data and Code for Our <a href="https://doi.org/10.5194/soil-2021-41"> Research Paper</a>
+  </p>
+ 
  <h3 align="center">Long-Term Impact of Cover Crop and Reduced Disturbance Tillage on Soil Pore Size Distribution and Soil Water Storage</h3>
 
-  <p align="center">
-   Research data and code for our <a href="https://doi.org/10.5194/soil-2021-41"> research paper.</a>
-  </p>
 </div>
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+### About The Project
 We studied the long-term impact of contrasting tillage and cover cropping systems on soil structure and soil hydraulic properties. We measured water retention and conductivity properties and analyzed the implication of these changes on water storage using numerical simulations in HYDRUS-2D software. Our study concludes that the long-term practices of no-till and cover crop systems were beneficial in terms of changes to the pore size distribution. No-till and cover cropping systems made marginal improvements in soil water conductivity and water storage.
 
 
@@ -25,11 +26,11 @@ The analysis was done primarily in R. For each `*.R` code file, I have compiled 
 
 
 <!-- LICENSE -->
-## License
+### License
 
 Distributed under the Creative Commons Attribution 4.0 (CC BY 4.0) License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
-## Contact
+### Contact
 
 Samuel Araya - [@SamuelA209](https://twitter.com/samuela209) - [https://samuelna.netlify.app/](https://samuelna.netlify.app/)
