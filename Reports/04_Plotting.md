@@ -127,7 +127,7 @@ pc.bd = plot_stats_dodge(p_namevec[c(1)],
 pc.bd
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\04_Plotting_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](04_Plotting_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
 
 Saturated Conductivity
 
@@ -140,7 +140,7 @@ pc.k = plot_stats_dodge(p_namevec[c(2)],
 pc.k
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\04_Plotting_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](04_Plotting_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
 
 Field Capacity
 
@@ -160,7 +160,7 @@ pc.fc = plot_stats_dodge(p_namevec[c(4)],
 pc.fc
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\04_Plotting_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](4_Plotting_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
 
 Plant Available Water Content
 
@@ -177,7 +177,7 @@ pc.paw = plot_stats_dodge(p_namevec[c(7)],
 pc.paw
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\04_Plotting_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](04_Plotting_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
 
 Combine Plots into one
 #+ fig.width=7, fig.height=7.5
@@ -194,7 +194,7 @@ p.comb <- ggpubr::ggarrange(pc.bd, pc.fc, pc.k,  pc.paw)
 p.comb
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\04_Plotting_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](04_Plotting_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
 
 ```r
 ggsave(
@@ -244,7 +244,7 @@ gbw.psd2 = gbw.psd2 +
 gbw.psd2
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\04_Plotting_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](04_Plotting_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
 
 ### Plot of Area Under the Curve $$S(ln(r))*dln(r)$$
 ln.r_area_porosity.lbl = 'Porosity'
@@ -298,7 +298,7 @@ psd.summ2 = ggplot(dplyr::filter(psdsumm.tbl, Variable == "ln.r_area"),
 psd.summ2
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\04_Plotting_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![](04_Plotting_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 
 Combine plots
 
