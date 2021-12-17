@@ -28,7 +28,7 @@ The analysis was done primarily in R. For each `*.R` code file, I have compiled 
 <!-- LICENSE -->
 ### License
 
-Distributed under the Creative Commons Attribution 4.0 (CC BY 4.0) License. See `LICENSE.txt` for more information.
+Distributed under the Creative Commons Attribution 4.0 (CC BY 4.0) License. See `Licnese.txt` for more information.
 
 <!-- CONTACT -->
 ### Contact
