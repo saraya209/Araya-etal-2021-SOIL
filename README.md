@@ -1,12 +1,11 @@
 <div>
    <p align="center">
-   Data and Code for Our <a href="https://doi.org/10.5194/soil-2021-41"> Research Paper</a>
+   Data* and Code for Our <a href="https://doi.org/10.5194/soil-2021-41"> Research Paper</a>
   </p>
  
  <h3 align="center">Long-Term Impact of Cover Crop and Reduced Disturbance Tillage on Soil Pore Size Distribution and Soil Water Storage</h3>
 
 </div>
-
 
 <!-- ABOUT THE PROJECT -->
 ### About The Project
@@ -34,3 +33,5 @@ Distributed under the Creative Commons Attribution 4.0 (CC BY 4.0) License. See 
 ### Contact
 
 Samuel Araya - [@SamuelA209](https://twitter.com/samuela209) - [https://samuelna.netlify.app/](https://samuelna.netlify.app/)
+
+<sub>* Some large data are not available in this repository due to GitHub file size limts. The complete dataset will be published at Zenodo repository upon the publication of the manuscript</sub>
