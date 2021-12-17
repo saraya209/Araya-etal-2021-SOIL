@@ -341,7 +341,7 @@ pbw.ktrt = shp_bwplot(dt.seq, '10^h', '10^K', 'Sample_ID',
 pbw.ktrt
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\02_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](02_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
 
 ```r
 ggsave(plot = pbw.ktrt, width = 7, height = 6,
@@ -355,7 +355,7 @@ pbw.thetatrt = shp_bwplot(dt.seq, '10^h', 'theta*0.01', 'Sample_ID',
 pbw.thetatrt
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\02_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![](02_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
 
 ```r
 ggsave(plot = pbw.thetatrt, width = 7, height = 6,
@@ -378,7 +378,7 @@ p.c = curve_with_points(dt.seq, dt.mk,
 p.c
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\02_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](02_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
 
 ```r
 ggsave(plot = p.c, width = 10, height = 10,
@@ -398,7 +398,7 @@ p.wrc = curve_with_points(dt.seq, dt.mr,
 p.wrc
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\02_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](2_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
 
 ```r
 ggsave(plot = p.wrc, width = 10, height = 10,
@@ -422,7 +422,7 @@ pbw.psd = pbw.psd+
 pbw.psd
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\02_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![](02_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 
 ```r
 ggsave(plot = pbw.psd, width = 6, height = 4,
@@ -445,7 +445,7 @@ pbw.psd2 = pbw.psd2+
 pbw.psd2
 ```
 
-![](I:\My Drive\NoTill\Araya_etal_2021_R\Reports\02_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+![](02_Make_Lab_Data_Analysis_Ready_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
 
 ```r
 ggsave(plot = pbw.psd2, width = 9, height = 8,
