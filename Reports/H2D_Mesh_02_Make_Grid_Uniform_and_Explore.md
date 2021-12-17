@@ -230,7 +230,7 @@ mp = ggplot(data = sub.mesh.dt) +
 mp  
 ```
 
-![](H2D_Mesh_01_Make_Grid_Uniform_and_Explore_files/figure-html/th_mesh_Plot-1.png)<!-- -->
+![](H2D_Mesh_02_Make_Grid_Uniform_and_Explore_files/figure-html/th_mesh_Plot-1.png)<!-- -->
 
 ```r
 mp_50 = mp +  
@@ -239,7 +239,7 @@ mp_50 = mp +
 mp_50
 ```
 
-![](H2D_Mesh_01_Make_Grid_Uniform_and_Explore_files/figure-html/th_mesh_Plot_50-1.png)<!-- -->
+![](H2D_Mesh_02_Make_Grid_Uniform_and_Explore_files/figure-html/th_mesh_Plot_50-1.png)<!-- -->
 
 ```r
 save_plot(mp_50, "Dynamic_2HD_th_Mesh", 6,10)
@@ -268,7 +268,7 @@ mph = ggplot(data = sub.mesh.dt) +
 mph
 ```
 
-![](H2D_Mesh_01_Make_Grid_Uniform_and_Explore_files/figure-html/h_mesh_Plot-1.png)<!-- -->
+![](H2D_Mesh_02_Make_Grid_Uniform_and_Explore_files/figure-html/h_mesh_Plot-1.png)<!-- -->
 
 ```r
 mph_50 = mph +  
@@ -277,7 +277,7 @@ mph_50 = mph +
 mph_50
 ```
 
-![](H2D_Mesh_01_Make_Grid_Uniform_and_Explore_files/figure-html/h_mesh_Plot_50-1.png)<!-- -->
+![](H2D_Mesh_02_Make_Grid_Uniform_and_Explore_files/figure-html/h_mesh_Plot_50-1.png)<!-- -->
 
 ```r
 save_plot(mph_50, "Dynamic_2HD_h_Mesh", 6,10)
@@ -376,7 +376,7 @@ p = ggplot(sub.dt, aes(x = th_mean, y = Depth, group = Trt)) +
 p
 ```
 
-![](H2D_Mesh_01_Make_Grid_Uniform_and_Explore_files/figure-html/theta_Plot-1.png)<!-- -->
+![](H2D_Mesh_02_Make_Grid_Uniform_and_Explore_files/figure-html/theta_Plot-1.png)<!-- -->
 
 ```r
 save_plot(p, "Dynamic_2HD_th_by_Depth_weighted", 7,5)
@@ -389,7 +389,7 @@ p_50 = p +
 p_50
 ```
 
-![](H2D_Mesh_01_Make_Grid_Uniform_and_Explore_files/figure-html/theta_Plot_50-1.png)<!-- -->
+![](H2D_Mesh_02_Make_Grid_Uniform_and_Explore_files/figure-html/theta_Plot_50-1.png)<!-- -->
 
 ```r
 save_plot(p_50, "Dynamic_2HD_th_by_Depth_weighted_top_50", 7,4)
@@ -440,7 +440,7 @@ ph = ggplot(sub.dt, aes(x = (h_mean*-1), y = Depth, group = Trt)) +
 ph
 ```
 
-![](H2D_Mesh_01_Make_Grid_Uniform_and_Explore_files/figure-html/h_Plot-1.png)<!-- -->
+![](H2D_Mesh_02_Make_Grid_Uniform_and_Explore_files/figure-html/h_Plot-1.png)<!-- -->
 
 ```r
 save_plot(ph, "Dynamic_2HD_h_by_Depth_weighted", 7,5.5)
@@ -454,7 +454,7 @@ ph_50 = ph +
 ph_50
 ```
 
-![](H2D_Mesh_01_Make_Grid_Uniform_and_Explore_files/figure-html/h_Plot_50-1.png)<!-- -->
+![](H2D_Mesh_02_Make_Grid_Uniform_and_Explore_files/figure-html/h_Plot_50-1.png)<!-- -->
 
 ```r
 save_plot(ph_50, "Dynamic_2HD_h_by_Depth_weighted_top_50", 7,4.5)
