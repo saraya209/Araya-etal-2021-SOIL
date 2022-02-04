@@ -34,4 +34,4 @@ Distributed under the Creative Commons Attribution 4.0 (CC BY 4.0) License. See 
 
 Samuel Araya - [@SamuelA209](https://twitter.com/samuela209) - [https://samuelna.netlify.app/](https://samuelna.netlify.app/)
 
-<sub>* Some large data are not available in this repository due to GitHub file size limts. The complete dataset will be published at Zenodo repository upon the publication of the manuscript</sub>
+<sub>* HYDRUS-2D Mesh-level data are not available in this repository due to GitHub file size limts. Please contact author for access.</sub>
