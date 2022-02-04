@@ -1,3 +1,4 @@
+<a href="https://zenodo.org/badge/latestdoi/438793433"><img src="https://zenodo.org/badge/438793433.svg" alt="DOI"></a>
 <div>
   
   <h3 align="center">Data* and Code for The <a href="https://doi.org/10.5194/soil-2021-41"> Research Paper</a>:</h3>
@@ -34,4 +35,4 @@ Distributed under the Creative Commons Attribution 4.0 (CC BY 4.0) License. See 
 
 Samuel Araya - [@SamuelA209](https://twitter.com/samuela209) - [https://samuelna.netlify.app/](https://samuelna.netlify.app/)
 
-<sub>* HYDRUS-2D Mesh-level data are not available in this repository due to GitHub file size limts. Please contact author for access.</sub>
+<sub>* HYDRUS-2D Mesh-level data are not available in this repository due to GitHub file size limits. Please contact author for access.</sub>
