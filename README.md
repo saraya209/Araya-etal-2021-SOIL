@@ -1,4 +1,4 @@
-<a href="https://zenodo.org/badge/latestdoi/438793433"><img src="https://zenodo.org/badge/438793433.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.5974038"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5974038.svg" alt="DOI"></a>
 <div>
   
   <h3 align="center">Data* and Code for The <a href="https://doi.org/10.5194/soil-2021-41"> Research Paper</a>:</h3>
