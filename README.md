@@ -1,9 +1,9 @@
 <div>
-   <p align="center">
-   Data* and Code for Our <a href="https://doi.org/10.5194/soil-2021-41"> Research Paper</a>
-  </p>
+  
+  <h3 align="center">Data* and Code for Our <a href="https://doi.org/10.5194/soil-2021-41"> Research Paper</h3>
+
  
- <h3 align="center">Long-Term Impact of Cover Crop and Reduced Disturbance Tillage on Soil Pore Size Distribution and Soil Water Storage</h3>
+ <h2 align="center">Long-Term Impact of Cover Crop and Reduced Disturbance Tillage on Soil Pore Size Distribution and Soil Water Storage</h2>
 
 </div>
 
